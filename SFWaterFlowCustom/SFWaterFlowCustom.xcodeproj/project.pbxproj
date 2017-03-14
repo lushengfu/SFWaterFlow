@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5D3913A1E7532F400C08A56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D391391E7532F400C08A56 /* main.m */; };
+		A5D3913D1E7532F400C08A56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D3913C1E7532F400C08A56 /* AppDelegate.m */; };
+		A5D391401E7532F400C08A56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D3913F1E7532F400C08A56 /* ViewController.m */; };
+		A5D391431E7532F400C08A56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D391411E7532F400C08A56 /* Main.storyboard */; };
+		A5D391451E7532F400C08A56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D391441E7532F400C08A56 /* Assets.xcassets */; };
+		A5D391481E7532F400C08A56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D391461E7532F400C08A56 /* LaunchScreen.storyboard */; };
+		A5D391531E7532F400C08A56 /* SFWaterFlowCustomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D391521E7532F400C08A56 /* SFWaterFlowCustomTests.m */; };
+		A5D3915E1E7532F400C08A56 /* SFWaterFlowCustomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D3915D1E7532F400C08A56 /* SFWaterFlowCustomUITests.m */; };
+		A5D3916E1E75336D00C08A56 /* SFWaterFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D3916D1E75336D00C08A56 /* SFWaterFlowView.m */; };
+		A5D391711E75356E00C08A56 /* SFWaterFlowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D391701E75356E00C08A56 /* SFWaterFlowCell.m */; };
+		A5D391AC1E76D90800C08A56 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D391AB1E76D90800C08A56 /* UIView+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5D3914F1E7532F400C08A56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5D3912D1E7532F300C08A56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5D391341E7532F300C08A56;
+			remoteInfo = SFWaterFlowCustom;
+		};
+		A5D3915A1E7532F400C08A56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5D3912D1E7532F300C08A56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5D391341E7532F300C08A56;
+			remoteInfo = SFWaterFlowCustom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5D391351E7532F400C08A56 /* SFWaterFlowCustom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFWaterFlowCustom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D391391E7532F400C08A56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5D3913B1E7532F400C08A56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5D3913C1E7532F400C08A56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5D3913E1E7532F400C08A56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A5D3913F1E7532F400C08A56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A5D391421E7532F400C08A56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5D391441E7532F400C08A56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5D391471E7532F400C08A56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5D391491E7532F400C08A56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D3914E1E7532F400C08A56 /* SFWaterFlowCustomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFWaterFlowCustomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D391521E7532F400C08A56 /* SFWaterFlowCustomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFWaterFlowCustomTests.m; sourceTree = "<group>"; };
+		A5D391541E7532F400C08A56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D391591E7532F400C08A56 /* SFWaterFlowCustomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFWaterFlowCustomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D3915D1E7532F400C08A56 /* SFWaterFlowCustomUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFWaterFlowCustomUITests.m; sourceTree = "<group>"; };
+		A5D3915F1E7532F400C08A56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D3916C1E75336D00C08A56 /* SFWaterFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFWaterFlowView.h; sourceTree = "<group>"; };
+		A5D3916D1E75336D00C08A56 /* SFWaterFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFWaterFlowView.m; sourceTree = "<group>"; };
+		A5D3916F1E75356E00C08A56 /* SFWaterFlowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFWaterFlowCell.h; sourceTree = "<group>"; };
+		A5D391701E75356E00C08A56 /* SFWaterFlowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFWaterFlowCell.m; sourceTree = "<group>"; };
+		A5D391AA1E76D90800C08A56 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		A5D391AB1E76D90800C08A56 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5D391321E7532F300C08A56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D3914B1E7532F400C08A56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D391561E7532F400C08A56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5D3912C1E7532F300C08A56 = {
+			isa = PBXGroup;
+			children = (
+				A5D3916B1E75333B00C08A56 /* SFWaterFlowClass */,
+				A5D391371E7532F400C08A56 /* SFWaterFlowCustom */,
+				A5D391511E7532F400C08A56 /* SFWaterFlowCustomTests */,
+				A5D3915C1E7532F400C08A56 /* SFWaterFlowCustomUITests */,
+				A5D391361E7532F400C08A56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5D391361E7532F400C08A56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5D391351E7532F400C08A56 /* SFWaterFlowCustom.app */,
+				A5D3914E1E7532F400C08A56 /* SFWaterFlowCustomTests.xctest */,
+				A5D391591E7532F400C08A56 /* SFWaterFlowCustomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5D391371E7532F400C08A56 /* SFWaterFlowCustom */ = {
+			isa = PBXGroup;
+			children = (
+				A5D3913B1E7532F400C08A56 /* AppDelegate.h */,
+				A5D3913C1E7532F400C08A56 /* AppDelegate.m */,
+				A5D3913E1E7532F400C08A56 /* ViewController.h */,
+				A5D3913F1E7532F400C08A56 /* ViewController.m */,
+				A5D391411E7532F400C08A56 /* Main.storyboard */,
+				A5D391441E7532F400C08A56 /* Assets.xcassets */,
+				A5D391461E7532F400C08A56 /* LaunchScreen.storyboard */,
+				A5D391491E7532F400C08A56 /* Info.plist */,
+				A5D391381E7532F400C08A56 /* Supporting Files */,
+			);
+			path = SFWaterFlowCustom;
+			sourceTree = "<group>";
+		};
+		A5D391381E7532F400C08A56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5D391391E7532F400C08A56 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5D391511E7532F400C08A56 /* SFWaterFlowCustomTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5D391521E7532F400C08A56 /* SFWaterFlowCustomTests.m */,
+				A5D391541E7532F400C08A56 /* Info.plist */,
+			);
+			path = SFWaterFlowCustomTests;
+			sourceTree = "<group>";
+		};
+		A5D3915C1E7532F400C08A56 /* SFWaterFlowCustomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5D3915D1E7532F400C08A56 /* SFWaterFlowCustomUITests.m */,
+				A5D3915F1E7532F400C08A56 /* Info.plist */,
+			);
+			path = SFWaterFlowCustomUITests;
+			sourceTree = "<group>";
+		};
+		A5D3916B1E75333B00C08A56 /* SFWaterFlowClass */ = {
+			isa = PBXGroup;
+			children = (
+				A5D391AA1E76D90800C08A56 /* UIView+Extension.h */,
+				A5D391AB1E76D90800C08A56 /* UIView+Extension.m */,
+				A5D3916C1E75336D00C08A56 /* SFWaterFlowView.h */,
+				A5D3916D1E75336D00C08A56 /* SFWaterFlowView.m */,
+				A5D3916F1E75356E00C08A56 /* SFWaterFlowCell.h */,
+				A5D391701E75356E00C08A56 /* SFWaterFlowCell.m */,
+			);
+			name = SFWaterFlowClass;
+			path = SFWaterFlowCustom/SFWaterFlowClass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5D391341E7532F300C08A56 /* SFWaterFlowCustom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5D391621E7532F400C08A56 /* Build configuration list for PBXNativeTarget "SFWaterFlowCustom" */;
+			buildPhases = (
+				A5D391311E7532F300C08A56 /* Sources */,
+				A5D391321E7532F300C08A56 /* Frameworks */,
+				A5D391331E7532F300C08A56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFWaterFlowCustom;
+			productName = SFWaterFlowCustom;
+			productReference = A5D391351E7532F400C08A56 /* SFWaterFlowCustom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5D3914D1E7532F400C08A56 /* SFWaterFlowCustomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5D391651E7532F400C08A56 /* Build configuration list for PBXNativeTarget "SFWaterFlowCustomTests" */;
+			buildPhases = (
+				A5D3914A1E7532F400C08A56 /* Sources */,
+				A5D3914B1E7532F400C08A56 /* Frameworks */,
+				A5D3914C1E7532F400C08A56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5D391501E7532F400C08A56 /* PBXTargetDependency */,
+			);
+			name = SFWaterFlowCustomTests;
+			productName = SFWaterFlowCustomTests;
+			productReference = A5D3914E1E7532F400C08A56 /* SFWaterFlowCustomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5D391581E7532F400C08A56 /* SFWaterFlowCustomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5D391681E7532F400C08A56 /* Build configuration list for PBXNativeTarget "SFWaterFlowCustomUITests" */;
+			buildPhases = (
+				A5D391551E7532F400C08A56 /* Sources */,
+				A5D391561E7532F400C08A56 /* Frameworks */,
+				A5D391571E7532F400C08A56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5D3915B1E7532F400C08A56 /* PBXTargetDependency */,
+			);
+			name = SFWaterFlowCustomUITests;
+			productName = SFWaterFlowCustomUITests;
+			productReference = A5D391591E7532F400C08A56 /* SFWaterFlowCustomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5D3912D1E7532F300C08A56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = CM;
+				TargetAttributes = {
+					A5D391341E7532F300C08A56 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					A5D3914D1E7532F400C08A56 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A5D391341E7532F300C08A56;
+					};
+					A5D391581E7532F400C08A56 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A5D391341E7532F300C08A56;
+					};
+				};
+			};
+			buildConfigurationList = A5D391301E7532F300C08A56 /* Build configuration list for PBXProject "SFWaterFlowCustom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5D3912C1E7532F300C08A56;
+			productRefGroup = A5D391361E7532F400C08A56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5D391341E7532F300C08A56 /* SFWaterFlowCustom */,
+				A5D3914D1E7532F400C08A56 /* SFWaterFlowCustomTests */,
+				A5D391581E7532F400C08A56 /* SFWaterFlowCustomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5D391331E7532F300C08A56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D391481E7532F400C08A56 /* LaunchScreen.storyboard in Resources */,
+				A5D391451E7532F400C08A56 /* Assets.xcassets in Resources */,
+				A5D391431E7532F400C08A56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D3914C1E7532F400C08A56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D391571E7532F400C08A56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5D391311E7532F300C08A56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D391AC1E76D90800C08A56 /* UIView+Extension.m in Sources */,
+				A5D391401E7532F400C08A56 /* ViewController.m in Sources */,
+				A5D3913D1E7532F400C08A56 /* AppDelegate.m in Sources */,
+				A5D3913A1E7532F400C08A56 /* main.m in Sources */,
+				A5D391711E75356E00C08A56 /* SFWaterFlowCell.m in Sources */,
+				A5D3916E1E75336D00C08A56 /* SFWaterFlowView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D3914A1E7532F400C08A56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D391531E7532F400C08A56 /* SFWaterFlowCustomTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D391551E7532F400C08A56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D3915E1E7532F400C08A56 /* SFWaterFlowCustomUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5D391501E7532F400C08A56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5D391341E7532F300C08A56 /* SFWaterFlowCustom */;
+			targetProxy = A5D3914F1E7532F400C08A56 /* PBXContainerItemProxy */;
+		};
+		A5D3915B1E7532F400C08A56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5D391341E7532F300C08A56 /* SFWaterFlowCustom */;
+			targetProxy = A5D3915A1E7532F400C08A56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5D391411E7532F400C08A56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5D391421E7532F400C08A56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5D391461E7532F400C08A56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5D391471E7532F400C08A56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5D391601E7532F400C08A56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A5D391611E7532F400C08A56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5D391631E7532F400C08A56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SFWaterFlowCustom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chongmi.SFWaterFlowCustom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A5D391641E7532F400C08A56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SFWaterFlowCustom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chongmi.SFWaterFlowCustom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A5D391661E7532F400C08A56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SFWaterFlowCustomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chongmi.SFWaterFlowCustomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFWaterFlowCustom.app/SFWaterFlowCustom";
+			};
+			name = Debug;
+		};
+		A5D391671E7532F400C08A56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SFWaterFlowCustomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chongmi.SFWaterFlowCustomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFWaterFlowCustom.app/SFWaterFlowCustom";
+			};
+			name = Release;
+		};
+		A5D391691E7532F400C08A56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SFWaterFlowCustomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chongmi.SFWaterFlowCustomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SFWaterFlowCustom;
+			};
+			name = Debug;
+		};
+		A5D3916A1E7532F400C08A56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SFWaterFlowCustomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chongmi.SFWaterFlowCustomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SFWaterFlowCustom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5D391301E7532F300C08A56 /* Build configuration list for PBXProject "SFWaterFlowCustom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D391601E7532F400C08A56 /* Debug */,
+				A5D391611E7532F400C08A56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5D391621E7532F400C08A56 /* Build configuration list for PBXNativeTarget "SFWaterFlowCustom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D391631E7532F400C08A56 /* Debug */,
+				A5D391641E7532F400C08A56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5D391651E7532F400C08A56 /* Build configuration list for PBXNativeTarget "SFWaterFlowCustomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D391661E7532F400C08A56 /* Debug */,
+				A5D391671E7532F400C08A56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5D391681E7532F400C08A56 /* Build configuration list for PBXNativeTarget "SFWaterFlowCustomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D391691E7532F400C08A56 /* Debug */,
+				A5D3916A1E7532F400C08A56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5D3912D1E7532F300C08A56 /* Project object */;
+}
